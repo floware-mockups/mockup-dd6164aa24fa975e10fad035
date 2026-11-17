@@ -1,0 +1,431 @@
+{
+  "title": "Prenotazione sale riunioni",
+  "description": "Gestisci le sale dell’ufficio comunale e consulta le prenotazioni in una vista settimanale. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle prenotazioni e delle sale disponibili per la settimana selezionata.",
+      "metrics": [
+        {
+          "label": "Sale disponibili",
+          "value": "4"
+        },
+        {
+          "label": "Prenotazioni settimanali",
+          "value": "18"
+        },
+        {
+          "label": "Ore prenotate",
+          "value": "42"
+        },
+        {
+          "label": "Prenotazioni in attesa",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Orario",
+        "Sala",
+        "Riunione",
+        "Organizzatore",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "09:00–10:00",
+          "Lumo",
+          "Pianificazione attività",
+          "Ufficio Nubi",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "11:00–12:30",
+          "Vela",
+          "Revisione progetti",
+          "Servizio Riva",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "10:00–11:00",
+          "Nubi",
+          "Coordinamento servizi",
+          "Ufficio Lumo",
+          "In attesa"
+        ],
+        [
+          "Mercoledì",
+          "14:00–15:00",
+          "Riva",
+          "Incontro operativo",
+          "Servizio Vela",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "calendario-settimanale",
+      "title": "Calendario settimanale",
+      "description": "Consulta le prenotazioni per giorno, fascia oraria e sala. Usa i filtri per restringere la vista.",
+      "metrics": [],
+      "columns": [
+        "Giorno",
+        "Orario",
+        "Sala",
+        "Riunione",
+        "Organizzatore",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "09:00–10:00",
+          "Lumo",
+          "Pianificazione attività",
+          "Ufficio Nubi",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "11:00–12:30",
+          "Vela",
+          "Revisione progetti",
+          "Servizio Riva",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "15:00–16:00",
+          "Riva",
+          "Verifica scadenze",
+          "Ufficio Lumo",
+          "3",
+          "In attesa"
+        ],
+        [
+          "Martedì",
+          "09:30–10:30",
+          "Nubi",
+          "Aggiornamento procedure",
+          "Servizio Vela",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "10:00–11:00",
+          "Lumo",
+          "Coordinamento servizi",
+          "Ufficio Lumo",
+          "7",
+          "In attesa"
+        ],
+        [
+          "Martedì",
+          "14:00–15:30",
+          "Vela",
+          "Riunione di progetto",
+          "Servizio Riva",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "09:00–10:00",
+          "Riva",
+          "Pianificazione turni",
+          "Ufficio Nubi",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "11:00–12:00",
+          "Nubi",
+          "Incontro operativo",
+          "Servizio Vela",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "14:00–15:00",
+          "Lumo",
+          "Revisione attività",
+          "Ufficio Lumo",
+          "3",
+          "In attesa"
+        ],
+        [
+          "Giovedì",
+          "09:00–10:30",
+          "Vela",
+          "Coordinamento interno",
+          "Servizio Riva",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "11:00–12:00",
+          "Riva",
+          "Verifica avanzamento",
+          "Ufficio Nubi",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "15:00–16:00",
+          "Nubi",
+          "Riunione di servizio",
+          "Servizio Vela",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "09:30–10:30",
+          "Lumo",
+          "Chiusura attività",
+          "Ufficio Lumo",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "11:00–12:30",
+          "Vela",
+          "Programmazione settimanale",
+          "Servizio Riva",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "14:00–15:00",
+          "Riva",
+          "Confronto operativo",
+          "Ufficio Nubi",
+          "4",
+          "In attesa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Prenotazioni",
+      "description": "Registra una prenotazione e consulta l’elenco filtrabile delle riunioni programmate.",
+      "metrics": [],
+      "columns": [
+        "Giorno",
+        "Orario",
+        "Sala",
+        "Riunione",
+        "Organizzatore",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "09:00–10:00",
+          "Lumo",
+          "Pianificazione attività",
+          "Ufficio Nubi",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "11:00–12:30",
+          "Vela",
+          "Revisione progetti",
+          "Servizio Riva",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "15:00–16:00",
+          "Riva",
+          "Verifica scadenze",
+          "Ufficio Lumo",
+          "3",
+          "In attesa"
+        ],
+        [
+          "Martedì",
+          "09:30–10:30",
+          "Nubi",
+          "Aggiornamento procedure",
+          "Servizio Vela",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "10:00–11:00",
+          "Lumo",
+          "Coordinamento servizi",
+          "Ufficio Lumo",
+          "7",
+          "In attesa"
+        ],
+        [
+          "Martedì",
+          "14:00–15:30",
+          "Vela",
+          "Riunione di progetto",
+          "Servizio Riva",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "09:00–10:00",
+          "Riva",
+          "Pianificazione turni",
+          "Ufficio Nubi",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "11:00–12:00",
+          "Nubi",
+          "Incontro operativo",
+          "Servizio Vela",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "14:00–15:00",
+          "Lumo",
+          "Revisione attività",
+          "Ufficio Lumo",
+          "3",
+          "In attesa"
+        ],
+        [
+          "Giovedì",
+          "09:00–10:30",
+          "Vela",
+          "Coordinamento interno",
+          "Servizio Riva",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "11:00–12:00",
+          "Riva",
+          "Verifica avanzamento",
+          "Ufficio Nubi",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "15:00–16:00",
+          "Nubi",
+          "Riunione di servizio",
+          "Servizio Vela",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "09:30–10:30",
+          "Lumo",
+          "Chiusura attività",
+          "Ufficio Lumo",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "11:00–12:30",
+          "Vela",
+          "Programmazione settimanale",
+          "Servizio Riva",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "14:00–15:00",
+          "Riva",
+          "Confronto operativo",
+          "Ufficio Nubi",
+          "4",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Giorno",
+        "Orario",
+        "Sala",
+        "Riunione",
+        "Organizzatore",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale",
+      "title": "Sale riunioni",
+      "description": "Consulta le caratteristiche e la disponibilità delle sale utilizzabili per gli incontri.",
+      "metrics": [],
+      "columns": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Ubicazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "10",
+          "Schermo, lavagna",
+          "Piano 1",
+          "Disponibile"
+        ],
+        [
+          "Vela",
+          "8",
+          "Schermo, videoconferenza",
+          "Piano 2",
+          "Disponibile"
+        ],
+        [
+          "Nubi",
+          "6",
+          "Lavagna",
+          "Piano 1",
+          "Disponibile"
+        ],
+        [
+          "Riva",
+          "12",
+          "Schermo, lavagna, videoconferenza",
+          "Piano 3",
+          "Disponibile"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
